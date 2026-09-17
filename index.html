@@ -84,76 +84,129 @@
 
 <body id="body" style="margin: 0 !important; padding: 0 !important; background-color: #f4f4f4;">
 
-	<div style="width: 100%; background-color: #f4f4f4; padding: 20px 0;">
+	<!-- Fluid outer table -->
+	<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0"
+		style="width: 100%; background-color: #f4f4f4;">
 
-		<div class="email-container"
-			style="max-width: 600px; margin: 0 auto; background-color: #ffffff; font-family: Arial, Helvetica, sans-serif;">
+		<tr>
+			<td align="center" style="padding: 20px 0;">
 
-			<div style="text-align: center; padding: 20px;">
-				<img src="images/images-2.jpeg" alt="Brand Logo" width="160" height="50"
-					style="display: block; margin: 0 auto;">
-			</div>
+				<!-- Fixed 600px inner table -->
+				<table role="presentation" class="email-container" width="600" border="0" cellspacing="0"
+					cellpadding="0"
+					style="width: 600px; max-width: 600px; background-color: #ffffff; font-family: Arial, Helvetica, sans-serif;">
 
-			<div style="padding: 10px 30px; text-align: center;">
-				<h1
-					style="margin: 0; font-size: 28px; line-height: 34px; color: #222222; font-family: Arial, Helvetica, sans-serif;">
-					Our Summer Sale Is Here!
-				</h1>
+					<!-- Logo -->
+					<tr>
+						<td align="center" style="padding: 20px;">
 
-				<h2
-					style="margin: 12px 0 0; font-size: 18px; line-height: 24px; color: #555555; font-weight: normal; font-family: Arial, Helvetica, sans-serif;">
-					Save up to 40% on selected products
-				</h2>
-			</div>
+							<img src="images/images-2.jpeg" alt="Brand Name logo" width="160" height="50"
+								style="display: block; max-width: 100%; height: auto; margin: 0 auto;">
 
-			<div style="padding: 16px 20px;">
-				<img src="https://placehold.co/560x280/2c5aa0/ffffff?text=Summer+Sale" alt="Summer Sale" width="560"
-					style="display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto;">
-			</div>
+						</td>
+					</tr>
 
-			<div style="padding: 10px 30px 20px;">
+					<!-- Headline -->
+					<tr>
+						<td align="center" style="padding: 10px 30px 20px;">
 
+							<h1
+								style="margin: 0; font-size: 28px; line-height: 34px; color: #222222; font-family: Arial, Helvetica, sans-serif;">
+								Our Summer Sale Is Here!
+							</h1>
 
-				<p
-					style="margin: 0 0 16px; font-size: 16px; line-height: 24px; color: #333333; font-family: Arial, Helvetica, sans-serif;">
-					Shop our collection today and take advantage of these special savings before the sale ends.
-				</p>
+							<h2
+								style="margin: 12px 0 0; font-size: 18px; line-height: 24px; color: #555555; font-weight: normal; font-family: Arial, Helvetica, sans-serif;">
+								Save up to 40% on selected products
+							</h2>
 
-				<p
-					style="margin: 0; font-size: 15px; line-height: 22px; color: #666666; font-family: Arial, Helvetica, sans-serif; font-style: italic;">
-					Offer ends Sunday at midnight.
-				</p>
-			</div>
+						</td>
+					</tr>
 
-			<div style="text-align: center; padding: 10px 30px 30px;">
-				<a href="https://example.com" target="_blank"
-					style="display: inline-block; background-color: #2c5aa0; color: #ffffff; text-decoration: none; font-size: 16px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; padding: 14px 32px; border-radius: 4px;">
-					Shop Now
-				</a>
-			</div>
+					<!-- Responsive hero image -->
+					<tr>
+						<td align="center" style="padding: 16px 20px;">
 
-			<div style="background-color: #eeeeee; padding: 24px 30px; text-align: center;">
-				<p
-					style="margin: 0 0 8px; font-size: 13px; line-height: 18px; color: #777777; font-family: Arial, Helvetica, sans-serif;">
-					You are receiving this email because you signed up for updates from Brand Name.
-				</p>
+							<img src="https://placehold.co/560x280/2c5aa0/ffffff?text=Summer+Sale"
+								alt="Summer sale with savings of up to 40 percent" width="560"
+								style="display: block; width: 100%; max-width: 100%; min-width: 100px; height: auto; margin: 0 auto;">
 
-				<p
-					style="margin: 0 0 8px; font-size: 13px; line-height: 18px; color: #777777; font-family: Arial, Helvetica, sans-serif;">
-					123 Main Street, Los Angeles, CA 90001
-				</p>
+						</td>
+					</tr>
 
-				<p
-					style="margin: 0; font-size: 13px; line-height: 18px; color: #777777; font-family: Arial, Helvetica, sans-serif;"> 
-					<a href="https://example.com/unsubscribe" style="color: #2c5aa0; text-decoration: underline;">
-						Unsubscribe
-					</a>
-				</p>
-			</div>
+					<!-- Text area with background image -->
+					<tr>
+						<td background="images/summer-background.jpg" bgcolor="#17345f"
+							style="background-image: url('images/summer-background.jpg'); background-position: center; background-size: cover; padding: 30px;">
 
-		</div>
+							<p
+								style="margin: 0 0 16px; font-size: 16px; line-height: 24px; color: #ffffff; font-family: Arial, Helvetica, sans-serif; text-align: left;">
+								Shop our collection today and take advantage of these special savings before the sale
+								ends.
+							</p>
 
-	</div>
+							<p
+								style="margin: 0; font-size: 15px; line-height: 22px; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-style: italic; text-align: left;">
+								Offer ends Sunday at midnight.
+							</p>
+
+						</td>
+					</tr>
+
+					<!-- Centered button -->
+					<tr>
+						<td align="center" style="padding: 30px;">
+
+							<table role="presentation" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td align="center" bgcolor="#2c5aa0" style="border-radius: 4px;">
+
+										<a href="https://example.com" target="_blank"
+											style="display: inline-block; background-color: #2c5aa0; color: #ffffff; text-decoration: none; font-size: 16px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; padding: 14px 32px; border-top: 1px solid #2c5aa0; border-right: 1px solid #2c5aa0; border-bottom: 1px solid #2c5aa0; border-left: 1px solid #2c5aa0; border-radius: 4px;">
+											Shop the Summer Sale
+										</a>
+
+									</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+
+					<!-- Footer -->
+					<tr>
+						<td align="center" bgcolor="#eeeeee"
+							style="background-color: #eeeeee; padding: 24px 30px; text-align: center;">
+
+							<p
+								style="margin: 0 0 8px; font-size: 13px; line-height: 18px; color: #555555; font-family: Arial, Helvetica, sans-serif;">
+								You are receiving this email because you signed up for updates from Brand Name.
+							</p>
+
+							<p
+								style="margin: 0 0 8px; font-size: 13px; line-height: 18px; color: #555555; font-family: Arial, Helvetica, sans-serif;">
+								123 Main Street, Los Angeles, CA 90001
+							</p>
+
+							<p
+								style="margin: 0; font-size: 13px; line-height: 18px; color: #555555; font-family: Arial, Helvetica, sans-serif;">
+
+								<a href="https://example.com/unsubscribe"
+									style="color: #2c5aa0; text-decoration: underline;">
+									Unsubscribe from Brand Name emails
+								</a>
+
+							</p>
+
+						</td>
+					</tr>
+
+				</table>
+
+			</td>
+		</tr>
+
+	</table>
 
 </body>
 
